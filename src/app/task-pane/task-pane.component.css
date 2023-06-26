@@ -1,0 +1,24 @@
+.task-pane {
+  z-index: auto;
+  width: 5%;
+  min-height: 85vh;
+  float: right;
+  background-color: #f5f6f8;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 8px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.task-pane-icons {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.icon--task {
+  text-align: center;
+}

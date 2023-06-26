@@ -1,0 +1,216 @@
+.db-title-bar {
+    min-height: 128px;
+    background-color: #e3e6ea;
+    border-bottom: 1px solid #d5dce2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+
+.image {
+    float: left;
+    margin-right: 32px;
+} 
+.portal-name {
+    color: #fff;
+    font-family: Bentonsans Medium, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.db-menu-bar {
+    color: #fff;
+    background-image: linear-gradient(to right, #000, #0064fc 0%, #0064fc 0%, #03a);
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+}
+  .search-input {
+    width: 360px;
+    height: 38px;
+}
+  .link-block {
+    width: 24px;
+    height: 24px;
+    background-image: url('src/assets/images/icn_slider_controls.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: -48px;
+}
+
+.portfolio-block {
+    width: 54px;
+    height: 54px;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+  
+  
+.search {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.search-bar {
+    width: 543px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.search-button {
+    display: none;
+}
+  
+.search-bar-input {
+    width: 543px;
+    height: 48px;
+    background-image: url('src/assets/images/icn_search.svg');
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-attachment: scroll;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding-left: 40px;
+}
+  
+.search-2 {
+    float: left;
+}  
+.portal-name {
+    color: #fff;
+    font-family: Bentonsans Medium, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.loader-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+.load {
+    width: 30%;
+    height: 8px;
+    background-image: linear-gradient(to right, #ffb81d, #ff681d);
+}
+
+.loader {
+    width: 30%;
+    height: 1px;
+    background-color: #f5d3ae;
+    padding-top: 8px;
+    display: block;
+}
+  
+.loaded {
+    background-color: #383838;
+    padding-top: 8px;
+    padding-bottom: 0;
+    display: inline;
+}
+
+.main-title {
+    height: 50px;
+    background-color: #e3e6ea;
+    align-items: center;
+    padding: 8px 32px;
+    display: flex;
+}
+
+.text-block {
+    color: #1a314d;
+    text-align: left;
+    align-items: center;
+    font-family: Bentonsans Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+}
+
+.refresh-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10%;
+}
+
+.refresh {
+    width: 24px;
+    height: 24px;
+    background-image: url('src/assets/images/icn_reload.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.notification-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url('src/assets/images/icn_bell_bell.svg');
+    background-position: 50%;
+    background-size: cover;
+    margin-right: 8px;
+    transition: text-shadow .15s;
+    display: block;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    background-image: url('src/assets/images/icn_dashboard.svg');
+    background-position: 50%;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+.profile {
+    width: 45px;
+    height: 45px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #b5bd00, #00af43);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .15s;
+    display: flex;
+}
+
+.profile-name {
+    color: #fff;
+    font-family: Bentonsans Medium, sans-serif;
+}
+@media screen and (max-width: 991px) {
+    .db-title-bar {
+      padding-right: 16px;
+    }
+    .db-menu-bar {
+        width: 768px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+  .db-menu-bar {
+    width: 768px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}  
+  
+  

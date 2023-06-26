@@ -1,0 +1,195 @@
+.db--nav-column {
+  z-index: 1;
+  width: 20%;
+  height: 100%;
+  min-height: 85vh;
+  float: left;
+  color: #fff;
+  background-color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: relative;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, .1);
+}
+.db--nav-column.db {
+  z-index: 1;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Bentonsans Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, .1);
+}
+  
+
+.db-name {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('src/assets/images/icn_chevron_left_1.svg');
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 16px 16px 16px 48px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+}
+
+.db-name-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #030303;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+}
+
+.db-name-text {
+    color: #0062e1;
+    font-family: Bentonsans Bold, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+.db-account-name {
+    background-image: linear-gradient(to right, #ffb81d, #ff681d);
+    margin-bottom: 32px;
+}
+
+.text-block-14 {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Bentonsans Bold, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.page-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-direction: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 12px;
+    display: flex;
+}
+
+.pagination-name {
+    align-items: center;
+    display: flex;
+}
+
+.pagination {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('src/assets/images/Group-31198.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid #f0f0f0;
+    border-radius: 32px;
+    flex: none;
+    margin-right: 8px;
+    display: flex;
+}
+
+.pagination-text {
+    color: #1a314d;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Bentonsans Medium, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.stroke {
+    width: 1px;
+    height: 50px;
+    text-align: center;
+    background-color: #000;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.db--cancel-button {
+    text-align: center;
+    background-color: #ef4444;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 40px;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+}
+
+.db--nav-column.db {
+  z-index: 1;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Bentonsans Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, .1);
+}
+
+.db-account-name {
+  background-image: linear-gradient(to right, #ffb81d, #ff681d);
+  margin-bottom: 32px;
+}
+
+.text-block-14 {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Bentonsans Bold, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .db--nav-column {
+    z-index: 10;
+    width: auto;
+    height: 70px;
+    min-height: auto;
+    float: none;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+}
+ 
