@@ -9,9 +9,11 @@ import { NavColumnComponent } from './nav-column/nav-column.component';
 import { TaskPaneComponent } from './task-pane/task-pane.component';
 import { DbSectionComponent } from './db-section/db-section.component';
 import { DbContentWrapperComponent } from './db-content-wrapper/db-content-wrapper.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DBNavColumnComponent } from './db-nav-column/db-nav-column.component';
 
 const routes: Routes = [
-  // { path: '', component: DbSectionComponent},
+  // { path: 'second', component: DBNavColumnComponent},
   // Other routes if any
 ];
 
@@ -22,7 +24,9 @@ const routes: Routes = [
     NavColumnComponent,
     TaskPaneComponent,
     DbSectionComponent,
-    DbContentWrapperComponent
+    DbContentWrapperComponent,
+    DashboardComponent,
+    DBNavColumnComponent
 ],
 
   imports: [

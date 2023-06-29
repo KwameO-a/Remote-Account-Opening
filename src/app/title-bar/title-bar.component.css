@@ -14,7 +14,7 @@
 } 
 .portal-name {
     color: #fff;
-    font-family: Bentonsans Medium, sans-serif;
+    font-family: Bentonsans medium, sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -87,13 +87,7 @@
 .search-2 {
     float: left;
 }  
-.portal-name {
-    color: #fff;
-    font-family: Bentonsans Medium, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-}
+
 
 .loader-wrapper {
     justify-content: center;
