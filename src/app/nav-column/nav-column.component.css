@@ -173,7 +173,7 @@
   line-height: 24px;
 }
 .pagination.active {
-  background-image: url('../../assets/images/'), linear-gradient(to right, #00bfff, #006efc);
+  background-image: url('../../assets/images/check.svg'), linear-gradient(to right, #00bfff, #006efc);
   background-position: 50%, 0 0;
   background-size: auto, auto;
 }

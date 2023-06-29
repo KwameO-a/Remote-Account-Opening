@@ -11,6 +11,7 @@ import { DbSectionComponent } from './db-section/db-section.component';
 import { DbContentWrapperComponent } from './db-content-wrapper/db-content-wrapper.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DBNavColumnComponent } from './db-nav-column/db-nav-column.component';
+import { DocumentInformationComponent } from './document-information/document-information.component';
 
 const routes: Routes = [
   // { path: 'second', component: DBNavColumnComponent},
@@ -26,7 +27,8 @@ const routes: Routes = [
     DbSectionComponent,
     DbContentWrapperComponent,
     DashboardComponent,
-    DBNavColumnComponent
+    DBNavColumnComponent,
+    DocumentInformationComponent
 ],
 
   imports: [

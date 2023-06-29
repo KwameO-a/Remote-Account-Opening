@@ -3,10 +3,10 @@
     font-weight: 400;
     text-decoration: none;
 }
-/* .db--content-wrapper {
+.db--content-wrapper {
     display: flex;
     position: relative;
-} */
+}
   
 .db--content-wrapper.track {
     height: 80vh;
