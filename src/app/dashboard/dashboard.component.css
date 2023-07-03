@@ -3,16 +3,16 @@
     font-weight: 400;
     text-decoration: none;
 }
-.db--content-wrapper {
+/* .db--content-wrapper {
     display: flex;
     position: relative;
-}
+} */
   
 .db--content-wrapper.track {
     height: 80vh;
     overflow: hidden;
 }
-
+/* 
 .db--content-column {
     width: 100%;
     min-height: 95vh;
@@ -24,7 +24,7 @@
     padding-right: 40px;
     position: relative;
     overflow: auto;
-}
+} */
 
 .db-content-title {
     -webkit-text-fill-color: transparent;
@@ -63,6 +63,10 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+div.w-layout-grid.account-grid {
+    grid-template-rows: auto;
+    grid-template-columns: .25fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .account-grid.gray {

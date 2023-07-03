@@ -1,13 +1,3 @@
-.db-section {
-    height: 100vh;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.db--content-wrapper.track {
-    height: 80vh;
-    overflow: hidden;
-}
 
 .db--nav-column.db {
     z-index: 1;
